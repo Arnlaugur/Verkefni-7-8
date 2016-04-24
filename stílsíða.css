@@ -2,3 +2,146 @@ html
 {
 	background-color: black;
 }
+
+body
+{
+  width: 960px;
+  background-color: #e6e6e6;
+	text-align: center;
+  height: 2000px;
+  
+}
+
+img
+{
+	position: center;
+}
+
+header
+{
+	height: 100px;
+	border: 1px solid #CCC;
+	width: 960px;
+	margin: 0px auto;
+  z-index: 10;
+}
+
+footer
+{
+  height: 100px;
+  width: 960px;
+  margin: 0 auto;
+  position: bottom;
+}
+h1
+{
+  font: font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+}
+
+#banner
+{
+  background-image: url("OMAM.jpg");
+	width: 960px;
+	height: 154px;
+  top: 100px;
+}
+
+
+
+/*
+  ========================================
+  Social buttons
+  ========================================
+*/
+.SMB{
+  position: relative;
+  height: 3em;
+  bottom: 50em;
+}
+.SMB ul{
+  list-style-type: none;
+  width: 14em;
+  margin: 0 auto;
+  padding: 0;
+}
+.SMB li{
+   display: inline-block;
+}
+.SMB a{
+  display: block;
+  text-decoration: none;
+}
+.twitter {
+  position: relative;
+  height: 3em;
+  width: 3em;
+  background: transparent url('Logo.png') 0 0 no-repeat;
+}
+.facebook {
+  position: relative;
+  height: 3em;
+  width: 3em;
+  background: transparent url('Logo.png') 0 -3em no-repeat;
+}
+.pinterest {
+  position: relative;
+  height: 3em;
+  width: 3em;
+  background: transparent url('Logo.png') 0 -6em no-repeat;
+}
+.google {
+  position: relative;
+  height: 3em;
+  width: 3em;
+  background: transparent url('Logo.png') 0 -9em no-repeat;
+}
+
+.SMB li:nth-child(4n+1) {
+  background: rgb(24, 147, 192);
+}
+.SMB li:nth-child(4n+2) {
+  background: rgb(20, 105, 160);
+}
+.SMB li:nth-child(4n+3) {
+  background: rgb(235, 149, 28);
+}
+.SMB li:nth-child(4n+4) {
+  background: rgb(210, 103, 5);
+}
+/*
+  ========================================
+  Hover effects(logos)
+  ========================================
+*/
+.SMB li:nth-child(4n+1) a:hover {
+  background: rgb(89, 208, 253);
+}
+.SMB li:nth-child(4n+2) a:hover {
+  background: rgb(12, 77, 119);
+}
+.SMB li:nth-child(4n+3) a:hover {
+  background: rgb(215, 108, 5);
+}
+.SMB li:nth-child(4n+4) a:hover {
+  background: rgb(255, 116, 26);
+}
+    body {
+      max-width: 60em;
+      margin: 0 auto;
+     /*notið em, m.t. tækja með hágæða "retina" skjáupplausn;*/
+  }
+    .SMB{
+    position: fixed;
+    top: 8em;
+    right: 0;
+    height: 10em;
+  }
+  .SMB ul{
+    list-style-type: none;
+    width: 3em;
+    margin: 0;
+    padding: 0;
+  }
+  .SMB li {
+    display: block;
+  }
