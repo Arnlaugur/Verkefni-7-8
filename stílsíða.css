@@ -12,13 +12,10 @@ body
   
 }
 
-img
-{
-	position: center;
-}
-
 header
 {
+  background-color: white;
+  position: fixed;
 	height: 100px;
 	border: 1px solid #CCC;
 	width: 960px;
@@ -31,22 +28,37 @@ footer
   height: 100px;
   width: 960px;
   margin: 0 auto;
-  position: bottom;
+  position: relative;
+  bottom: 0;
 }
-h1
+
+p
 {
-  font: font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  text-align: center;
+  width: 20em
+}
+
+#titill
+{
+font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
 }
 
 #banner
 {
+  position: relative;
   background-image: url("OMAM.jpg");
 	width: 960px;
 	height: 154px;
   top: 100px;
 }
 
-
+.texti
+{
+  height: 900px;
+  top: 40px;
+  position: relative;
+  font-size: 16pt
+}
 
 /*
   ========================================
